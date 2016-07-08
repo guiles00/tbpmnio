@@ -1,0 +1,33 @@
+{
+  "name": "Magic",
+  "prefix": "task",
+  "uri": "http://magic",
+  "xml": {
+    "tagAlias": "lowerCase"
+  },
+  "associations": [],
+  "types": [
+    {
+      "name": "BewitchedStartEvent",
+      "extends": [
+        "bpmn:StartEvent",
+        "bpmn:Task"
+      ],
+      "properties": [
+        {
+          "name": "spell",
+          "isAttr": true,
+          "type": "String"
+        },{
+          "name": "task",
+          "isAttr": true,
+          "type": "String"
+        },{
+          "name": "type",
+          "isAttr": true,
+          "type": "String"
+        },
+      ]
+    },
+  ]
+}

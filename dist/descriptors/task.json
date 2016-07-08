@@ -1,0 +1,24 @@
+{
+  "name": "Task",
+  "prefix": "task",
+  "uri": "http://task",
+  "xml": {
+    "tagAlias": "lowerCase"
+  },
+  "associations": [],
+  "types": [
+    {
+      "name": "TaskStartEvent",
+      "extends": [
+        "bpmn:StartEvent"
+      ],
+      "properties": [
+        {
+          "name": "task",
+          "isAttr": true,
+          "type": "String"
+        },
+      ]
+    },
+  ]
+}
